@@ -7,8 +7,11 @@ class UsersListView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AppScaffold(
-      body: Center(child: Text('Users List View'),),
+    return AppScaffold(
+      appBar: AppBar(
+        title: const Text('Users'),
+      ),
+      body: Container(),
     );
   }
 }
