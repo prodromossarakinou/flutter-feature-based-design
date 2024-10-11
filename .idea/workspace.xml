@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e38b60f-3911-4b0e-bf95-5d5ecf14a069" name="Changes" comment="- base structure;">
-      <change afterPath="$PROJECT_DIR$/bloc_example/lib/core/data/models/address_representation.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bloc_example/lib/core/data/models/company_representation.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bloc_example/lib/core/data/models/geo_representation.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bloc_example/lib/core/services/api_client.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bloc_example/lib/core/utilities/app_config.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bloc_example/lib/features/user/data/models/user_representation.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bloc_example/lib/features/user/data/repository/user_repository.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bloc_example/lib/features/user/presentation/cubit/user_list_state.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bloc_example/lib/features/user/presentation/cubit/users_list_cubit.dart" afterDir="false" />
+    <list default="true" id="1e38b60f-3911-4b0e-bf95-5d5ecf14a069" name="Changes" comment="changed fancy bg color">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bloc_example/lib/features/user/presentation/views/users_list_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bloc_example/lib/features/user/presentation/views/users_list_view.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bloc_example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/bloc_example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bloc_example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/bloc_example/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bloc_example/lib/features/user/presentation/widgets/user_item.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bloc_example/lib/features/user/presentation/widgets/user_item.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,13 +99,31 @@
       <option name="project" value="LOCAL" />
       <updated>1728643891041</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="bloc example ready">
+      <option name="closed" value="true" />
+      <created>1728652536477</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728652536477</updated>
+    </task>
+    <task id="LOCAL-00004" summary="changed fancy bg color">
+      <option name="closed" value="true" />
+      <created>1728652615685</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728652615685</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit&#10;- first views;" />
     <MESSAGE value="- base structure;" />
-    <option name="LAST_COMMIT_MESSAGE" value="- base structure;" />
+    <MESSAGE value="bloc example ready" />
+    <MESSAGE value="changed fancy bg color" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed fancy bg color" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
