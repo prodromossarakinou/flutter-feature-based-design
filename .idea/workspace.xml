@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e38b60f-3911-4b0e-bf95-5d5ecf14a069" name="Changes" comment="initial commit&#10;- first views;">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="1e38b60f-3911-4b0e-bf95-5d5ecf14a069" name="Changes" comment="- base structure;">
+      <change afterPath="$PROJECT_DIR$/bloc_example/lib/core/data/models/address_representation.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bloc_example/lib/core/data/models/company_representation.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bloc_example/lib/core/data/models/geo_representation.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bloc_example/lib/core/services/api_client.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bloc_example/lib/core/utilities/app_config.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bloc_example/lib/features/user/data/models/user_representation.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bloc_example/lib/features/user/data/repository/user_repository.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bloc_example/lib/features/user/presentation/cubit/user_list_state.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bloc_example/lib/features/user/presentation/cubit/users_list_cubit.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bloc_example/lib/core/bloc_example_app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bloc_example/lib/core/bloc_example_app.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bloc_example/lib/features/user/presentation/views/users_list_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bloc_example/lib/features/user/presentation/views/users_list_view.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bloc_example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/bloc_example/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bloc_example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/bloc_example/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +74,11 @@
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bloc_example/lib/core/data/models" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
       <option name="filePath" value="$PROJECT_DIR$/bloc_example/lib/main.dart" />
@@ -88,11 +102,27 @@
       <option name="project" value="LOCAL" />
       <updated>1728643476144</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="- base structure;">
+      <option name="closed" value="true" />
+      <created>1728643891041</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728643891041</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit&#10;- first views;" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit&#10;- first views;" />
+    <MESSAGE value="- base structure;" />
+    <option name="LAST_COMMIT_MESSAGE" value="- base structure;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="dart-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
