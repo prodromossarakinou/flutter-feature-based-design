@@ -67,7 +67,7 @@ class AppScaffold extends StatelessWidget {
           gradient: LinearGradient(
             colors: [
               Color(0xFFff9966), // έντονο πορτοκαλί
-              Color(0xFFff5e62), // κοκκινωπό
+              Color(0xffff66b2), // κοκκινωπό
             ],
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
