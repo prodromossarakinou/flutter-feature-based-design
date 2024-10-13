@@ -4,8 +4,30 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e38b60f-3911-4b0e-bf95-5d5ecf14a069" name="Changes" comment="Picture &amp; fade away added">
+    <list default="true" id="1e38b60f-3911-4b0e-bf95-5d5ecf14a069" name="Changes" comment="Init riverpod project;">
+      <change afterPath="$PROJECT_DIR$/riverpod_example/lib/core/data/models/address_representation.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riverpod_example/lib/core/data/models/address_representation.g.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riverpod_example/lib/core/data/models/company_representation.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riverpod_example/lib/core/data/models/company_representation.g.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riverpod_example/lib/core/data/models/geo_representation.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riverpod_example/lib/core/data/models/geo_representation.g.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riverpod_example/lib/core/navigation/router_config.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riverpod_example/lib/core/presentation/widgets/app_scaffold.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riverpod_example/lib/core/riverpod_example_app.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riverpod_example/lib/core/services/api_client.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riverpod_example/lib/core/utilities/app_config.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riverpod_example/lib/features/home/presentation/views/home_view.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riverpod_example/lib/features/user/data/models/user_representation.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riverpod_example/lib/features/user/data/models/user_representation.g.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riverpod_example/lib/features/user/data/repository/user_repository.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riverpod_example/lib/features/user/presentation/riverpod/users_list_provider.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riverpod_example/lib/features/user/presentation/views/users_list_view.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riverpod_example/lib/features/user/presentation/widgets/user_item.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/riverpod_example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/riverpod_example/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/riverpod_example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/riverpod_example/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/riverpod_example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/riverpod_example/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/riverpod_example/test/widget_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/riverpod_example/test/widget_test.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,39 +68,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Flutter.main.dart.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;io.flutter.reload.alreadyRun&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/prodromossarakinou/StudioProjects/feature_based_design&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Flutter.BloC-Example.executor": "Debug",
+    "Flutter.Riverpod-example.executor": "Debug",
+    "Flutter.main.dart.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "io.flutter.reload.alreadyRun": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/prodromossarakinou/StudioProjects/feature_based_design/riverpod_example",
+    "show.migrate.to.gradle.popup": "false"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/riverpod_example" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/bloc_example/lib/core/data/models" />
     </key>
   </component>
-  <component name="RunManager" selected="Flutter.main.dart (1)">
-    <configuration name="main.dart (1)" type="FlutterRunConfigurationType" factoryName="Flutter">
-      <option name="filePath" value="$PROJECT_DIR$/riverpod_example/lib/main.dart" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+  <component name="RunManager" selected="Flutter.Riverpod-example">
+    <configuration name="BloC-Example" type="FlutterRunConfigurationType" factoryName="Flutter">
       <option name="filePath" value="$PROJECT_DIR$/bloc_example/lib/main.dart" />
       <method v="2" />
     </configuration>
+    <configuration name="Riverpod-example" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/riverpod_example/lib/main.dart" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Flutter.main.dart" />
-      <item itemvalue="Flutter.main.dart (1)" />
+      <item itemvalue="Flutter.BloC-Example" />
+      <item itemvalue="Flutter.Riverpod-example" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -130,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728656004072</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Init riverpod project;">
+      <option name="closed" value="true" />
+      <created>1728690901658</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728690901658</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -139,7 +174,8 @@
     <MESSAGE value="bloc example ready" />
     <MESSAGE value="changed fancy bg color" />
     <MESSAGE value="Picture &amp; fade away added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Picture &amp; fade away added" />
+    <MESSAGE value="Init riverpod project;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init riverpod project;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
